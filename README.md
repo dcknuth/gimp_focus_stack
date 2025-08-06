@@ -12,7 +12,7 @@ This is a GIMP plugin to do a focus stack of all the images in a selected direct
 1. The stacking can take some time if there are many images. The final image will be opened in the GIMP and all intermediate and the final image will be deleted, so you will need to save or export the open image from the GIMP
 
 ## Notes
-* The optional flags used with photo-stack.exe are *--global-align* and *--align-keep-size*. This last might create some artifacting along the edges that may need to be cropped out. For now, you will need to edit the code to change options, but I may try to add some via the plugin at a later date
+* It (photo-stack.exe) is run with the optional flag *--global-align*. For now, you will need to edit the code to change options, but I may try to add some via the plugin at a later date
 * Output is always a jpg from photo-stack.exe and so the open image will be 8bit/channel with a bit of compression loss (95 quality of 100)
 * There are a set of test images in the repo that produce this as a final output:
 ![Final result](final_output.jpg)

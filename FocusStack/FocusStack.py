@@ -16,7 +16,7 @@ tmp_file = ''.join([user_appdata, r"\\GIMP\\3.0\\tmp\\",
 exe_name = "focus-stack.exe"
 EXE_PATH = ''.join([user_appdata, r"\\GIMP\\3.0\\scripts\\focus-stack\\",
                     exe_name])
-OPTIONS = ['--global-align', '--align-keep-size']
+OPTIONS = ['--global-align']
 
 class FocusStack(Gimp.PlugIn):
     # Plugin properties
